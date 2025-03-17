@@ -288,7 +288,7 @@ export default function Timeline() {
                 {/* Glowing effect when hovered */}
                 {hoveredCard === event.title && (
                   <motion.div 
-                    className="absolute inset-0 bg-gradient-to-r from-cyan-500/20 to-purple-500/20 rounded-lg blur-xl"
+                    className="absolute  inset-0 bg-gradient-to-r from-cyan-500/20 to-purple-500/20 rounded-lg blur-xl"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0 }}
@@ -296,9 +296,9 @@ export default function Timeline() {
                 )}
                 
                 <Card
-                  className="backdrop-blur-md transition-all border-t border-cyan-500/30 border-b border-purple-500/30"
+                  className=" bg-[#031A8A] transition-all border-t border-cyan-500/30 border-b "
                   style={{
-                    background: "rgba(15, 23, 42, 0.6)",
+                    // background: "rgba(15, 23, 42, 0.6)",
                     color: "white",
                     boxShadow: hoveredCard === event.title ? 
                       "0 0 20px rgba(34, 211, 238, 0.3), 0 0 40px rgba(168, 85, 247, 0.2)" : 

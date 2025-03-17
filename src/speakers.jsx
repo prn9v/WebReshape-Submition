@@ -92,6 +92,7 @@ export default function Speakers() {
               boxShadow: "0px 0px 15px rgba(255, 255, 255, 0.5)",
               cursor: "pointer",
               marginBottom: "48px",
+              marginTop: "-32px",
             }}
           >
             <Card
