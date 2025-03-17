@@ -284,7 +284,7 @@ const Hero = () => {
 
   return (
     <section 
-      className={` max-h-screen relative w-full flex items-center justify-center bg-gradient-to-b from-black to-blue-900`}
+      className={` h-[1200px] relative w-full flex items-center justify-center bg-gradient-to-b from-black to-blue-900`}
       style={{ height: canvasHeight }}
     >
       <ErrorBoundary fallback={<HeroFallback isLowPerformance={true} />}>
