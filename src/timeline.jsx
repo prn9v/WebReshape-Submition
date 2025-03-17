@@ -179,7 +179,7 @@ export default function Timeline() {
     <section id="timeline" className="py-16 relative min-h-screen">
       {/* Futuristic background elements */}
       <Particles />
-      <div className="absolute inset-0 bg-gradient-to-br from-blue-900/20 to-purple-900/20 pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-br bg-opacity-60 from-[#3499FF] to-[#3A3985] pointer-events-none" />
       
       <motion.div 
         initial={{ opacity: 0 }}

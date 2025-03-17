@@ -6,6 +6,7 @@ import ChatSupport from "../chat-support"
 import DynamicTheme from "../dynamic-theme"
 import Footer from "../footer"
 import HeroFallback from "../hero"
+import Navbar from "../navbar"
 
 const Hero = lazy(() => import("../hero"))
 
@@ -31,6 +32,7 @@ export default function HomePage() {
   return (
     <DynamicTheme>
       <main className="min-h-screen text-white overflow-hidden" style={{ background: "var(--page-background)" }}>
+      <Navbar />
         {heroError ? (
           <HeroFallback />
         ) : (

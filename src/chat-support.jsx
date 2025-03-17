@@ -173,7 +173,7 @@ export default function ChatSupport() {
 
           {!isMinimized && (
             <>
-              <CardContent className="p-4 overflow-y-auto h-[calc(500px-132px)]">
+              <CardContent className="p-4 overflow-y-auto h-[calc(600px-260px)]">
                 <div className="space-y-4">
                   {messages.map((message) => (
                     <Message key={message.id} message={message} />
@@ -199,8 +199,8 @@ export default function ChatSupport() {
                 </div>
               </CardContent>
 
-              <CardFooter className="p-4 border-t border-slate-700">
-                <form onSubmit={handleSendMessage} className="flex w-full gap-2">
+              <CardFooter className=" border-t border-slate-700 pt-2">
+                <form onSubmit={handleSendMessage} className="flex w-full  gap-2">
                   <Input
                     placeholder="Type your message..."
                     value={input}
